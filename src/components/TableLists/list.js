@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
-import classes from './list.module.css'
+import classes from './list.module.css';
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getDatabase,remove,ref } from "firebase/database";
 import { useDispatch } from "react-redux";
 import { displayActions } from "../../Store/Display";
+import deleteIcon from './delete.svg'
 
 function List() {
   const firebaseConfig = {
@@ -100,7 +101,7 @@ function List() {
               <td>{item.phone}</td>
               <td>{item.email}</td>
               <td>{item.appointment_date.toLocaleDateString()}</td>
-              <td><img src='/delete.svg' onClick={()=>{removeHandler(item.id)}}/></td>
+              <td><img src={deleteIcon} onClick={()=>{removeHandler(item.id)}}/></td>
             </tr>
           );
         })}
