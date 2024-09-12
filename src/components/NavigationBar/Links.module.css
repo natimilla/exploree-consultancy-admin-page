@@ -1,0 +1,41 @@
+.container {
+  padding: 1rem;
+  padding: 2rem 5rem;
+}
+.container a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  display: inline;
+  padding: 0 1rem;
+  margin: 1rem 2rem;
+}
+.active {
+  border-bottom: 3px solid #36b4d3;
+}
+.container a:hover {
+  border-bottom: 3px solid #36b4d3;
+}
+@media screen and (max-width:1000px) {
+  .container a{
+    display: block;
+    margin-bottom: 1.5rem;
+  }
+  .container{
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    animation: intro 0.1s ease-in;
+    z-index: 1000;
+    height: 15dvh;
+  }
+  @keyframes intro {
+    0%{
+       opacity: 0;  
+    }
+    100%{
+        opacity:1;
+      
+    }
+  }
+}

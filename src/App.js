@@ -1,24 +1,29 @@
-import logo from './logo.svg';
+import { Route } from 'react-router-dom';
 import './App.css';
+import Overlay from './components/overlay/Overlay';
+import { useSelector } from 'react-redux';
+import DisableDate from './components/Disable Dates/DisableDate';
+import TableList from './components/TableLists/TableList';
+import NavBar from './components/NavigationBar/NavBar';
+import { Helmet } from 'react-helmet';
 
 function App() {
+  const loading=useSelector(Store=>Store.display.loading)
+  const error=useSelector(Store=>Store.display.error)
+  const display=loading || error
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className='App'>
+       <Helmet>
+        <title>Exploree Consultancy - Admin</title>
+        <meta name="description" content="Manage all your Exploree Consultancy administrative tasks in one place." />
+        <meta name="keywords" content="Exploree Consultancy, Admin, Dashboard, Management" />
+        <meta name="author" content="Exploree Consultancy Team" />
+      </Helmet>
+      <NavBar/>
+      {display && <Overlay/>}
+      <Route path='/' exact ><TableList/></Route>
+      <Route path='/disable_date'><DisableDate/></Route>
+      </div>
   );
 }
 
