@@ -1,15 +1,20 @@
 {
   "files": {
     "main.css": "/exploree-consultancy-admin-page/static/css/main.5747b855.css",
-    "main.js": "/exploree-consultancy-admin-page/static/js/main.756c054b.js",
+    "main.js": "/exploree-consultancy-admin-page/static/js/main.c659cc3b.js",
     "static/js/453.dd929f50.chunk.js": "/exploree-consultancy-admin-page/static/js/453.dd929f50.chunk.js",
+    "static/media/logo.svg": "/exploree-consultancy-admin-page/static/media/logo.f622b257c59aacc4b1814553f97fb753.svg",
+    "static/media/delete.svg": "/exploree-consultancy-admin-page/static/media/delete.40e81c6ae762e3d4f367f120375d0cfe.svg",
     "index.html": "/exploree-consultancy-admin-page/index.html",
+    "static/media/cancelIcon.svg": "/exploree-consultancy-admin-page/static/media/cancelIcon.f70aee36af2e35806b2f788b1fd3a70d.svg",
+    "static/media/Loading.svg": "/exploree-consultancy-admin-page/static/media/Loading.004417e41e2bf7f7a17d3b74d49217d4.svg",
+    "static/media/menuIcon.svg": "/exploree-consultancy-admin-page/static/media/menuIcon.783bc5ecc06d7f4379648452c44f8683.svg",
     "main.5747b855.css.map": "/exploree-consultancy-admin-page/static/css/main.5747b855.css.map",
-    "main.756c054b.js.map": "/exploree-consultancy-admin-page/static/js/main.756c054b.js.map",
+    "main.c659cc3b.js.map": "/exploree-consultancy-admin-page/static/js/main.c659cc3b.js.map",
     "453.dd929f50.chunk.js.map": "/exploree-consultancy-admin-page/static/js/453.dd929f50.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5747b855.css",
-    "static/js/main.756c054b.js"
+    "static/js/main.c659cc3b.js"
   ]
 }
