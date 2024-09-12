@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/exploree-consultancy-admin-page/static/css/main.5747b855.css",
+    "main.js": "/exploree-consultancy-admin-page/static/js/main.756c054b.js",
+    "static/js/453.dd929f50.chunk.js": "/exploree-consultancy-admin-page/static/js/453.dd929f50.chunk.js",
+    "index.html": "/exploree-consultancy-admin-page/index.html",
+    "main.5747b855.css.map": "/exploree-consultancy-admin-page/static/css/main.5747b855.css.map",
+    "main.756c054b.js.map": "/exploree-consultancy-admin-page/static/js/main.756c054b.js.map",
+    "453.dd929f50.chunk.js.map": "/exploree-consultancy-admin-page/static/js/453.dd929f50.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5747b855.css",
+    "static/js/main.756c054b.js"
+  ]
+}
